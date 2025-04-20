@@ -58,7 +58,7 @@ const About = () => {
           className="relative w-80 h-80 rounded-full overflow-hidden shadow-2xl"
         >
           <img
-            src="src/WhatsApp Image 2025-03-25 at 7.23.16 PM.jpeg?auto=format&fit=crop&q=80&w=800"
+            src="src/WhatsApp Image 2025-03-25 at 7.23.16 PM.jpeg"
             alt="Profile"
             className="w-full h-full object-cover"
           />
