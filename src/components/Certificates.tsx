@@ -6,38 +6,38 @@ import { useState } from 'react';
 const certificates = [
   {
     title: "Java Programming",
-    image: "src/1.jpg?auto=format&fit=crop&q=80&w=800",
+    image: "src/1.jpg",
     issuer: "Coursera",
     
   },
   {
     title: "Web Development",
-    image: "src/3.jpg?auto=format&fit=crop&q=80&w=800",
+    image: "src/3.jpg",
     issuer: "Coursera"
   },
   {
     title: "Java Testing",
-    image: "src/2.jpg?auto=format&fit=crop&q=80&w=800",
+    image: "src/2.jpg",
     issuer: "Coursera"
   },
   {
     title: "IBM Full Stack software developer",
-    image: "src/4.jpg?auto=format&fit=crop&q=80&w=800",
+    image: "src/4.jpg",
     issuer: "Coursera"
   },
   {
     title: "GCC-TBC (English -30)Typing",
-    image: "src/5.jpg?auto=format&fit=crop&q=80&w=800",
+    image: "src/5.jpg",
     issuer: "MSCE Pune"
   },
   {
     title: "UI/UX Design",
-    image: "src/6.jpg?auto=format&fit=crop&q=80&w=800",
+    image: "src/6.jpg",
     issuer: "Internshala"
   },
   {
     title: "TCS iON career edge",
-    image: "src/7.jpg?auto=format&fit=crop&q=80&w=800",
+    image: "src/7.jpg",
     issuer: "TCS iON"
   },
 ];
