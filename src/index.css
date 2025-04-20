@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.bg-animate {
+  background-size: 200% 200%;
+  animation: gradient 5s ease infinite;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+}
+
+.font-serif {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Add signature font */
+@import url('https://fonts.cdnfonts.com/css/edwardian-script-itc');
+
+.font-signature {
+  font-family: 'Edwardian Script ITC', cursive;
+}
